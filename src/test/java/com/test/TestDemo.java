@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 
 public class TestDemo {
-	@Test(description="Google Home)")
+	@Test(description="Google Home")
 	public void testNew() {
 		System.setProperty("phantomjs.binary.path", "/Users/waqaskhan/Downloads/phantomjs/bin/phantomjs");
 		WebDriver driver = new PhantomJSDriver();
