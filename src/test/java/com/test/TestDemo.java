@@ -13,6 +13,7 @@ public class TestDemo {
 	public void testNew() {
 		System.setProperty("phantomjs.binary.path", "/Users/waqaskhan/Downloads/phantomjs/bin/phantomjs");
 		WebDriver driver = new PhantomJSDriver();
+		
 		driver.get("https://www.google.com");
 		driver.findElement(By.xpath("//a[contains(.,'Gmail')]")).click();
 		
